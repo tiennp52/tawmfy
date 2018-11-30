@@ -10,9 +10,9 @@
 }
 
 .bb-custom-wrapper {
-	width: 420px;
+	width: 100%;
 	position: relative;
-	margin: 0 auto 40px;
+	margin: 0;
 	text-align: center;
 }
 
@@ -23,7 +23,7 @@
 .bb-custom-wrapper h3 {
 	font-size: 1.4em;
 	font-weight: 300;
-	margin: 0.4em 0 1em;
+	margin: 0;
 }
 
 .bb-custom-wrapper nav {
@@ -87,5 +87,5 @@
 }
 
 .no-js .bb-custom-content {
-	height: 470px;
+	height: auto;
 }
