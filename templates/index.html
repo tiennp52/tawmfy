@@ -28,10 +28,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="../static/js/jquerypp.custom.js"></script>
     <script src="../static/js/jquery.bookblock.min.js"></script>
-    <script src="../static/js/bookblock.js"></script>
-    <script>
-        Page.init();
-    </script>
+    <script src="../static/js/bookblockscript.js"></script>
+
 
     <style>
         body {
@@ -41,7 +39,6 @@
 
 </head>
 <body>
-
 <div class="bb-custom-wrapper">
     <div id="bb-bookblock" class="bb-bookblock">
         <div class="bb-item">
@@ -60,10 +57,13 @@
             <img src="../static/images/demo1/5.jpg" alt="image05"/></a>
         </div>
     </div>
-
 </div>
+<script>
+    Page.init();
+</script>
+
 <!-- a simple music player -->
-<div class="audioplayer">
+<div align="center" class="audioplayer">
     <audio id="player" controls>
         <source src="../static/music/its-a-beautiful-day.mp3" type="audio/mp3">
     </audio>
