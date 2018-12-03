@@ -25,8 +25,18 @@
     <!-- Player -->
     <script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
-    <style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../static/js/jquerypp.custom.js"></script>
+    <script src="../static/js/jquery.bookblock.min.js"></script>
+    <script src="../static/js/bookblock.js"></script>
+    <script>
+        Page.init();
+    </script>
 
+    <style>
+        body {
+            background-color: #01272c;
+        }
     </style>
 
 </head>
@@ -50,94 +60,10 @@
             <img src="../static/images/demo1/5.jpg" alt="image05"/></a>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="../static/js/jquerypp.custom.js"></script>
-    <script src="../static/js/jquery.bookblock.min.js"></script>
-    <script>
-        var Page = (function () {
 
-            var config = {
-                    $bookBlock: $('#bb-bookblock'),
-                    $navNext: $('#bb-nav-next'),
-                    $navPrev: $('#bb-nav-prev'),
-                    $navFirst: $('#bb-nav-first'),
-                    $navLast: $('#bb-nav-last')
-                },
-                init = function () {
-                    config.$bookBlock.bookblock({
-                        speed: 800,
-                        shadowSides: 0.8,
-                        shadowFlip: 0.7
-                    });
-                    initEvents();
-                },
-                initEvents = function () {
-
-                    var $slides = config.$bookBlock.children();
-
-                    // add navigation events
-                    config.$navNext.on('click touchstart', function () {
-                        config.$bookBlock.bookblock('next');
-                        return false;
-                    });
-
-                    config.$navPrev.on('click touchstart', function () {
-                        config.$bookBlock.bookblock('prev');
-                        return false;
-                    });
-
-                    config.$navFirst.on('click touchstart', function () {
-                        config.$bookBlock.bookblock('first');
-                        return false;
-                    });
-
-                    config.$navLast.on('click touchstart', function () {
-                        config.$bookBlock.bookblock('last');
-                        return false;
-                    });
-
-                    // add swipe events
-                    $slides.on({
-                        'swipeleft': function (event) {
-                            config.$bookBlock.bookblock('next');
-                            return false;
-                        },
-                        'swiperight': function (event) {
-                            config.$bookBlock.bookblock('prev');
-                            return false;
-                        }
-                    });
-
-                    // add keyboard events
-                    $(document).keydown(function (e) {
-                        var keyCode = e.keyCode || e.which,
-                            arrow = {
-                                left: 37,
-                                up: 38,
-                                right: 39,
-                                down: 40
-                            };
-
-                        switch (keyCode) {
-                            case arrow.left:
-                                config.$bookBlock.bookblock('prev');
-                                break;
-                            case arrow.right:
-                                config.$bookBlock.bookblock('next');
-                                break;
-                        }
-                    });
-                };
-
-            return {init: init};
-
-        })();
-    </script>
-    <script>
-        Page.init();
-    </script>
 </div>
-<div align="center">
+<!-- a simple music player -->
+<div class="audioplayer">
     <audio id="player" controls>
         <source src="../static/music/its-a-beautiful-day.mp3" type="audio/mp3">
     </audio>
