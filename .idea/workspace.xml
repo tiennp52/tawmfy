@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edbf016-57b1-411e-8209-5af2bcb388e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/images/demo1/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/demo1/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/demo1/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/demo1/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/demo1/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/demo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/demo1.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,20 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/bookblock.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="22">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -84,8 +79,8 @@
         <option value="$PROJECT_DIR$/static/js/audioplayer.js" />
         <option value="$PROJECT_DIR$/static/js/bookblockscript.js" />
         <option value="$PROJECT_DIR$/static/css/bookblock.css" />
-        <option value="$PROJECT_DIR$/static/css/demo1.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/css/demo1.css" />
       </list>
     </option>
   </component>
@@ -187,12 +182,12 @@
       <workItem from="1543571928524" duration="7633000" />
       <workItem from="1543581151484" duration="7452000" />
       <workItem from="1543836883969" duration="6610000" />
-      <workItem from="1544093412328" duration="3180000" />
+      <workItem from="1544093412328" duration="3301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41929000" />
+    <option name="totallyTimeSpent" value="42050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -267,13 +262,6 @@
     <entry file="file://$PROJECT_DIR$/static/js/bookblockscript.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/modernizr.custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1430">
@@ -284,6 +272,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bookblock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -291,10 +286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bookblock.css">
+    <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
