@@ -10,8 +10,8 @@
 }
 
 .bb-custom-wrapper {
-	width: 375px;
-
+	width: 100%;
+	max-width: 100%;
 	top: 0;
 	text-align: center;
 }
