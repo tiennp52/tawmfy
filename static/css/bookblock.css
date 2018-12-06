@@ -162,9 +162,10 @@
 }
 
 .bb-item {
-	width: 20%;
-	height: 20%;
+	width: 100%;
+	height: auto;
 	position: absolute;
+
 }
 
 /* No JS */
@@ -177,4 +178,9 @@
 .no-js .bb-item {
 	display: block;
 	position: relative;
+}
+
+.test{
+	width:20%;
+	height: auto;
 }
