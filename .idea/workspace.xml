@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edbf016-57b1-411e-8209-5af2bcb388e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/static/images/demo1/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/demo1/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/demo1/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/demo1/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/demo1/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/demo1/5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -190,7 +195,7 @@
     <option name="totallyTimeSpent" value="41929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17334037" />
