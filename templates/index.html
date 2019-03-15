@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>AmplitudeJS Testing</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="{{ url_for('static', filename = 'js/jquery.js') }}"></script>
+    <link href="{{ url_for('static', filename = 'bootstrap/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Include Resource Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/foundation.min.css') }}"/>
@@ -25,10 +29,8 @@
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/app.css') }}"/>
   </head>
   <body>
-    <div class="grid-x" align="center">
-      <div class="large-6 medium-6 small-12 large-centered medium-centered cell">
-
-        <div id="white-player" align="center">
+  <div class="content-wrapper" align="center">
+            <div id="white-player" align="center">
           <div class="white-player-top">
             <div class="grid-x">
               <div class="large-3 medium-3 small-3 cell">
@@ -154,8 +156,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
+  </div>
   </body>
   <script type="text/javascript">
     Amplitude.init({
