@@ -29,7 +29,7 @@ jQuery(function ($) {
                 "file": "Collide"
             }, {
                 "track": 2,
-                "name": "I'm Gonna Be (500 miles) - Imagine Dragons",
+                "name": "I'm Gonna Be - Imagine Dragons",
                 "duration": "3:00",
                 "file": "ImGunnaBe"
             },
