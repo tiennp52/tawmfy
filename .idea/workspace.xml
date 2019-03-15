@@ -2,7 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4edbf016-57b1-411e-8209-5af2bcb388e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioplayer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioplayer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioplayer.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioplayer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioportal-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioportal-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/audioportal-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/icon_itunes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/icon_soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/icon_youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin-justthumbandbutton-pausebtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin-justthumbandbutton-playbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin_minion_arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin_minion_arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin_minion_pausebtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/img/skin_minion_playbtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_aria.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_customcontrols.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_justthumbandbutton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_minimal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_minion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_pro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_redlights.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_silver.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_steel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skin_wave.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/inc/_ap_skinvariation_wave_bigtitles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/audioplayer/wavesurfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/adg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bgminion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/dzsplugins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/hinhnen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/hinhnen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/howie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/nen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/new_year_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/scrubbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/scrubprog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/thumb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/thumb3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/thumb4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/track1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/track2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/track3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/video_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/vinyl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/watermark.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/img/delimiter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/skeleton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/adg3_mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/adg3_mp3prog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/itsabeautifulday_mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/itsabeautifulday_mp3prog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/scrubbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/scrubprog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/steph1_mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/steph1_mp3prog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/steph2_mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/steph2_mp3prog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/wavesbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/waves/wavesprog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="160" column="34" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="160" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="48" column="122" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="122" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,8 +112,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
+            <state relative-caret-position="-462">
+              <caret line="3" column="26" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/testau/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="173" column="56" selection-start-line="173" selection-start-column="48" selection-end-line="173" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -45,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="176">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -75,7 +169,12 @@
       <find>menu-description</find>
       <find>.meta-artist</find>
       <find>meta-artist</find>
+      <find>-player-container</find>
+      <find>flat-black-</find>
+      <find>add t</find>
+      <find>align</find>
       <find>data-bgimage</find>
+      <find>up next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,15 +194,18 @@
         <option value="$PROJECT_DIR$/static/js/bookblockscript.js" />
         <option value="$PROJECT_DIR$/static/css/demo1.css" />
         <option value="$PROJECT_DIR$/static/css/bookblock.css" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/css/demo2.css.html" />
         <option value="$PROJECT_DIR$/static/css/demo2.css" />
         <option value="$PROJECT_DIR$/templates/index2.html" />
         <option value="$PROJECT_DIR$/static/js/audioplayer.js" />
         <option value="$PROJECT_DIR$/templates/audioplayer/index3.html" />
         <option value="$PROJECT_DIR$/templates/audioplayer/audioplayer.scss" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/index3.html" />
+        <option value="$USER_HOME$/Desktop/testau/index.html" />
+        <option value="$PROJECT_DIR$/templates/index4.html" />
+        <option value="$PROJECT_DIR$/templates/css/app.css" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -203,12 +305,12 @@
       <workItem from="1544435128977" duration="33000" />
       <workItem from="1544491063693" duration="713000" />
       <workItem from="1547725762002" duration="3390000" />
-      <workItem from="1552634022225" duration="16193000" />
+      <workItem from="1552634022225" duration="20014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71473000" />
+    <option name="totallyTimeSpent" value="75294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="13" width="1762" height="1000" extended-state="0" />
@@ -327,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="45" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/audioplayer/audioplayer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -341,24 +436,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$USER_HOME$/Desktop/testau/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="44">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/foundation.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <folding>
+            <element signature="e#58785#58999#2" expanded="true" />
+            <element signature="e#59256#59595#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/testau/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="173" column="56" selection-start-line="173" selection-start-column="48" selection-end-line="173" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
+        <state relative-caret-position="-462">
+          <caret line="3" column="26" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="160" column="34" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="160" selection-end-column="34" />
+        <state relative-caret-position="378">
+          <caret line="48" column="122" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="122" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -368,6 +494,20 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
         </state>
       </provider>
     </entry>

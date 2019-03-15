@@ -1,177 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Merry Christmas</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../static/images/icon.png"/>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <head>
+    <title>AmplitudeJS Testing</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!-- Include Resource Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/foundation.min.css') }}"/>
 
-    <script type='text/javascript' src='../static/js/snow.js'></script>
+    <!-- Include font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
-    <!-- custom demo style -->
-    <link rel="stylesheet" type="text/css" href="../static/css/bookblock.css"/>
-    <link rel="stylesheet" type="text/css" href="../static/css/demo1.css"/>
-    <script src="../static/js/modernizr.custom.js"></script>
+		<!--
+			Include Resource Javascript
 
-    <!-- Player -->
-    <script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="../static/js/jquerypp.custom.js"></script>
-    <script src="../static/js/jquery.bookblock.min.js"></script>
+			NOTE: These are for handling things outside of the scope of AmplitudeJS
+		-->
+		<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename = 'js/foundation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'js/functions.js') }}"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130560499-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+		<!-- Include Amplitude JS -->
+		<script type="text/javascript" src="{{ url_for('static', filename = 'dist/amplitude.js') }}"></script>
 
-        gtag('config', 'UA-130560499-1');
-    </script>
+		<!-- Include Style Sheet -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/app.css') }}"/>
+  </head>
+  <body>
+    <div class="grid-x" align="center">
+      <div class="large-6 medium-6 small-12 large-centered medium-centered cell">
+
+        <div id="white-player" align="center">
+          <div class="white-player-top">
+            <div class="grid-x">
+              <div class="large-3 medium-3 small-3 cell">
+
+              </div>
+              <div class="large-6 medium-6 small-6 cell">
+                <span class="now-playing">Now Playing</span>
+              </div>
+              <div class="large-3 medium-3 small-3 cell">
+                <img src="{{ url_for('static', filename = './img/show-playlist.svg') }}" class="show-playlist"/>
+              </div>
+            </div>
+          </div>
+
+          <div id="white-player-center">
+            <img data-amplitude-song-info="cover_art_url" class="main-album-art"/>
+
+            <div class="song-meta-data">
+              <span data-amplitude-song-info="name" class="song-name"></span>
+              <span data-amplitude-song-info="artist" class="song-artist"></span>
+            </div>
+
+            <div class="time-progress">
+              <div class="grid-x">
+                <div class="large-12 medium-12 small-12 cell">
+                  <div id="progress-container">
+                    <input type="range" class="amplitude-song-slider"/>
+  				          <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+  				          <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-x">
+                <div class="large-6 medium-6 small-6 cell">
+                  <span class="current-time">
+  				          <span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
+  				        </span>
+                </div>
+                <div class="large-6 medium-6 small-6 cell">
+                  <span class="duration">
+  				          <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
+  				        </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="white-player-controls">
+            <div class="grid-x">
+              <div class="large-12 medium-12 small-12 cell">
+                <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                <div class="amplitude-prev" id="previous"></div>
+                <div class="amplitude-play-pause" id="play-pause"></div>
+                <div class="amplitude-next" id="next"></div>
+                <div class="amplitude-repeat" id="repeat"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="white-player-playlist-container">
+            <div class="white-player-playlist-top">
+              <div class="grid-x">
+                <div class="large-3 medium-3 small-3 cell">
+
+                </div>
+                <div class="large-6 medium-6 small-6 cell">
+                  <span class="queue">Queue</span>
+                </div>
+                <div class="large-3 medium-3 small-3 cell">
+                  <img src="{{ url_for('static', filename = './img/close.svg') }}" class="close-playlist"/>
+                </div>
+              </div>
+            </div>
 
 
-    <style>
-        body {
-            background-color: #01272c;
-        }
-    </style>
 
-</head>
-<body>
+            <div class="white-player-playlist">
+              <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+                <img src="{{ url_for('static', filename = 'album-art/we-are-to-answer.jpg') }}"/>
 
-<div class="bb-custom-wrapper">
-    <div id="bb-bookblock" class="bb-bookblock">
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/1.jpg" alt="image01"/></a>
+                <div class="playlist-song-meta">
+                  <span class="playlist-song-name">Risin' High (feat Raashan Ahmad)</span>
+                  <span class="playlist-artist-album">Ancient Astronauts &bull; We Are to Answer</span>
+                </div>
+              </div>
+              <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+                <img src="{{ url_for('static', filename = 'album-art/ask-the-dust.jpg') }}"/>
+
+                <div class="playlist-song-meta">
+                  <span class="playlist-song-name">The Gun</span>
+                  <span class="playlist-artist-album">Lorn &bull; Ask The Dust</span>
+                </div>
+              </div>
+              <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+                <img src="{{ url_for('static', filename = 'album-art/anvil.jpg') }}"/>
+
+                <div class="playlist-song-meta">
+                  <span class="playlist-song-name">The Gun</span>
+                  <span class="playlist-artist-album">Lorn &bull; Anvil</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="white-player-playlist-controls">
+              <img data-amplitude-song-info="cover_art_url" class="playlist-album-art"/>
+
+              <div class="playlist-controls">
+                <div class="grid-x">
+                  <div class="large-6 medium-6 small-6 cell">
+                    <span data-amplitude-song-info="name" class="song-name"></span>
+                    <span data-amplitude-song-info="artist" class="song-artist"></span>
+                  </div>
+                  <div class="large-6 medium-6 small-6 cell">
+                    <div class="playlist-control-wrapper">
+                      <div class="amplitude-prev" id="playlist-previous"></div>
+                      <div class="amplitude-play-pause" id="playlist-play-pause"></div>
+                      <div class="amplitude-next" id="playlist-next"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/2.jpg" alt="image02"/></a>
-        </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/3.jpg" alt="image03"/></a>
-        </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/4.jpg" alt="image04"/></a>
-        </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/5.jpg" alt="image05"/></a>
-        </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/6.jpg" alt="image06"/></a>
-        </div>
-        <div class="bb-item">
-            <img class="test" src="../static/images/demo1/7.jpg" alt="image07"/></a>
-        </div>
+      </div>
     </div>
-</div>
+  </body>
+  <script type="text/javascript">
+    Amplitude.init({
+      "songs": [
+        {
+          "name": "Risin' High (feat Raashan Ahmad)",
+          "artist": "Ancient Astronauts",
+          "album": "We Are to Answer",
+          "url": "{{ url_for('static', filename = 'music/Collide.mp3') }}",
+          "cover_art_url": "{{ url_for('static', filename = 'album-art/we-are-to-answer.jpg') }}"
+        },
+        {
+          "name": "The Gun",
+          "artist": "Lorn",
+          "album": "Ask The Dust",
+          "url": "{{ url_for('static', filename = 'music/Collide.mp3') }}",
+          "cover_art_url": "{{ url_for('static', filename = 'album-art/ask-the-dust.jpg') }}"
+        },
+        {
+          "name": "Anvil",
+          "artist": "Lorn",
+          "album": "Anvil",
+          "url": "music/Collide.mp3",
+          "cover_art_url": "{{ url_for('static', filename = 'album-art/anvil.jpg') }}"
+        },
 
-<script>
-    var Page = (function() {
-
-        var config = {
-                $bookBlock : $( '#bb-bookblock' ),
-                $navNext : $( '#bb-nav-next' ),
-                $navPrev : $( '#bb-nav-prev' ),
-                $navFirst : $( '#bb-nav-first' ),
-                $navLast : $( '#bb-nav-last' )
-            },
-            init = function() {
-                config.$bookBlock.bookblock( {
-                    speed : 800,
-                    shadowSides : 0.8,
-                    shadowFlip : 0.7
-                } );
-                initEvents();
-            },
-            initEvents = function() {
-
-                var $slides = config.$bookBlock.children();
-
-                // add navigation events
-                config.$navNext.on( 'click touchstart', function() {
-                    config.$bookBlock.bookblock( 'next' );
-                    return false;
-                } );
-
-                config.$navPrev.on( 'click touchstart', function() {
-                    config.$bookBlock.bookblock( 'prev' );
-                    return false;
-                } );
-
-                config.$navFirst.on( 'click touchstart', function() {
-                    config.$bookBlock.bookblock( 'first' );
-                    return false;
-                } );
-
-                config.$navLast.on( 'click touchstart', function() {
-                    config.$bookBlock.bookblock( 'last' );
-                    return false;
-                } );
-
-                // add swipe events
-                $slides.on( {
-                    'swipeleft' : function( event ) {
-                        config.$bookBlock.bookblock( 'next' );
-                        return false;
-                    },
-                    'swiperight' : function( event ) {
-                        config.$bookBlock.bookblock( 'prev' );
-                        return false;
-                    }
-                } );
-
-                // add keyboard events
-                $( document ).keydown( function(e) {
-                    var keyCode = e.keyCode || e.which,
-                        arrow = {
-                            left : 37,
-                            up : 38,
-                            right : 39,
-                            down : 40
-                        };
-
-                    switch (keyCode) {
-                        case arrow.left:
-                            config.$bookBlock.bookblock( 'prev' );
-                            break;
-                        case arrow.right:
-                            config.$bookBlock.bookblock( 'next' );
-                            break;
-                    }
-                } );
-            };
-
-        return { init : init };
-
-    })();
-</script>
-<script>
-    Page.init();
-</script>
-
-<!-- a simple music player -->
-
-<div align="center" class="audioplayer">
-    <audio id="player" >
-    <source src="../static/music/its-a-beautiful-day.mp3" type="audio/mp3" >
-    </audio>
-</div>
-
-<script>const player = new Plyr('#player');
-</script>
-
-</body>
+      ]
+    });
+  </script>
 </html>
