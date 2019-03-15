@@ -567,7 +567,7 @@ div.song-to-add a.add-to-playlist-button {
   3. Layout
 */
 body {
-  background-image: linear-gradient(-134deg, #C182DC 0%, #FB7C62 94%, #FF7C5B 100%);
+  background-color: #00a4e4;/*linear-gradient(-134deg, #3b31dc 0%, #6edafb 94%, #97ffc6 100%);*/
   height: 100vh;
 }
 
