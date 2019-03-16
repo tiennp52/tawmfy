@@ -118,29 +118,101 @@
             <div class="white-player-playlist">
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="0">
-                    <img src="{{ url_for('static', filename = 'album-art/we-are-to-answer.jpg') }}"/>
+                    <img src="{{ url_for('static', filename = 'album-art/howie.jpg') }}"/>
 
                     <div class="playlist-song-meta">
-                        <span class="playlist-song-name">Risin' High (feat Raashan Ahmad)</span>
-                        <span class="playlist-artist-album">Ancient Astronauts &bull; We Are to Answer</span>
+                        <span class="playlist-song-name">Howie Day</span>
+                        <span class="playlist-artist-album">Collide</span>
                     </div>
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="1">
-                    <img src="{{ url_for('static', filename = 'album-art/ask-the-dust.jpg') }}"/>
+                    <img src="{{ url_for('static', filename = 'album-art/bolbbalgan4.jpg') }}"/>
 
                     <div class="playlist-song-meta">
-                        <span class="playlist-song-name">The Gun</span>
-                        <span class="playlist-artist-album">Lorn &bull; Ask The Dust</span>
+                        <span class="playlist-song-name">#First Love</span>
+                        <span class="playlist-artist-album">볼빨간사춘기</span>
                     </div>
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="2">
-                    <img src="{{ url_for('static', filename = 'album-art/anvil.jpg') }}"/>
+                    <img src="{{ url_for('static', filename = 'album-art/george.jpg') }}"/>
 
                     <div class="playlist-song-meta">
-                        <span class="playlist-song-name">The Gun</span>
-                        <span class="playlist-artist-album">Lorn &bull; Anvil</span>
+                        <span class="playlist-song-name">Budapest</span>
+                        <span class="playlist-artist-album">George Ezra</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="3">
+                    <img src="{{ url_for('static', filename = 'album-art/perfect.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">Perfect</span>
+                        <span class="playlist-artist-album">Ed Sheeran</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="4">
+                    <img src="{{ url_for('static', filename = 'album-art/tatnuocdaudinh.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">Tát nước đầu đình</span>
+                        <span class="playlist-artist-album">Lynk Lee</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="5">
+                    <img src="{{ url_for('static', filename = 'album-art/buble.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">Everything</span>
+                        <span class="playlist-artist-album">Michael Buble</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="6">
+                    <img src="{{ url_for('static', filename = 'album-art/dragons.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">500 miles - Im gonna be</span>
+                        <span class="playlist-artist-album">Những chú rồng ảo tưởng</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="7">
+                    <img src="{{ url_for('static', filename = 'album-art/angels.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">Angels</span>
+                        <span class="playlist-artist-album">Robbie Williams</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="8">
+                    <img src="{{ url_for('static', filename = 'album-art/soyou.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">The Blue Night of Jeju Island</span>
+                        <span class="playlist-artist-album">SOYOU</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="9">
+                    <img src="{{ url_for('static', filename = 'album-art/passitall.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">Pass It On</span>
+                        <span class="playlist-artist-album">The Coral</span>
+                    </div>
+                </div>
+                <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
+                     data-amplitude-song-index="10">
+                    <img src="{{ url_for('static', filename = 'album-art/al.jpg') }}"/>
+
+                    <div class="playlist-song-meta">
+                        <span class="playlist-song-name">I Love You</span>
+                        <span class="playlist-artist-album">Avril Lavigne</span>
                     </div>
                 </div>
             </div>
@@ -173,27 +245,82 @@
     Amplitude.init({
         "songs": [
             {
-                "name": "Risin' High (feat Raashan Ahmad)",
-                "artist": "Ancient Astronauts",
-                "album": "We Are to Answer",
+                "name": "Collide",
+                "artist": "Howie Day",
+                "album": "",
                 "url": "{{ url_for('static', filename = 'music/Collide.mp3') }}",
-                "cover_art_url": "{{ url_for('static', filename = 'album-art/we-are-to-answer.jpg') }}"
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/howie.jpg') }}"
             },
             {
-                "name": "The Gun",
-                "artist": "Lorn",
-                "album": "Ask The Dust",
-                "url": "{{ url_for('static', filename = 'music/Collide.mp3') }}",
-                "cover_art_url": "{{ url_for('static', filename = 'album-art/ask-the-dust.jpg') }}"
+                "name": "#First Love",
+                "artist": "Bolbbalgan4 (볼빨간사춘기)",
+                "album": " #첫사랑",
+                "url": "{{ url_for('static', filename = 'music/Firstlove.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/bolbbalgan4.jpg') }}"
             },
             {
-                "name": "Anvil",
-                "artist": "Lorn",
-                "album": "Anvil",
-                "url": "music/Collide.mp3",
-                "cover_art_url": "{{ url_for('static', filename = 'album-art/anvil.jpg') }}"
+                "name": "Budapest",
+                "artist": "George Ezra",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/George Ezra - Budapest.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/george.jpg') }}"
             },
-
+            {
+                "name": "Perfect",
+                "artist": "Ed Sheeran",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/Perfect - Ed Sheeran.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/perfect.jpg') }}"
+            },
+            {
+                "name": "Tát nước đầu đình",
+                "artist": "Lynk Lee",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/Lynk Lee - tatnuocdaudinh.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/tatnuocdaudinh.jpg') }}"
+            },
+            {
+                "name": "Everything",
+                "artist": "Michael Buble",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/Michael Buble - Everything.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/buble.jpg') }}"
+            },
+            {
+                "name": "500 miles - Im gonna be",
+                "artist": "Những chú rồng ảo tưởng",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/ImGunnaBe.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/dragons.jpg') }}"
+            },
+            {
+                "name": "Angels",
+                "artist": "Robbie Williams",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/Robbie Williams - Angels.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/angels.jpg') }}"
+            },
+            {
+                "name": "The Blue Night of Jeju Island",
+                "artist": "SOYOU",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/SOYOU-The Blue Night of Jeju Island.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/soyou.jpg') }}"
+            },
+            {
+                "name": "Pass It On",
+                "artist": "The Coral",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/The Coral - Pass It On.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/passitall.jpg') }}"
+            },
+            {
+                "name": "I Love You",
+                "artist": "Avril Lavigne",
+                "album": "",
+                "url": "{{ url_for('static', filename = 'music/Avril Lavigne - I Love You.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/al.jpg') }}"
+            }
         ]
     });
 </script>
