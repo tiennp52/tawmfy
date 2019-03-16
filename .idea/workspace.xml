@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4edbf016-57b1-411e-8209-5af2bcb388e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4edbf016-57b1-411e-8209-5af2bcb388e5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +18,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <state relative-caret-position="110">
+                  <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/index1.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="4" column="84" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="84" />
                 </state>
               </provider>
             </entry>
@@ -52,7 +59,7 @@
             <entry file="file://$PROJECT_DIR$/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="460">
-                  <caret line="182" column="79" selection-start-line="182" selection-start-column="79" selection-end-line="182" selection-end-column="79" />
+                  <caret line="183" column="79" selection-start-line="183" selection-start-column="79" selection-end-line="183" selection-end-column="79" />
                 </state>
               </provider>
             </entry>
@@ -224,12 +231,12 @@
       <workItem from="1544435128977" duration="33000" />
       <workItem from="1544491063693" duration="713000" />
       <workItem from="1547725762002" duration="3390000" />
-      <workItem from="1552634022225" duration="31730000" />
+      <workItem from="1552634022225" duration="31764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87010000" />
+    <option name="totallyTimeSpent" value="87044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="16" width="1926" height="998" extended-state="0" />
@@ -407,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-902">
@@ -437,10 +437,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="84" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="110">
+          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
         </state>
       </provider>
     </entry>
