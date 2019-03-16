@@ -15,7 +15,6 @@
 
     <!--
         Include Resource Javascript
-
         NOTE: These are for handling things outside of the scope of AmplitudeJS
     -->
     <script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery.js') }}"></script>
@@ -31,8 +30,8 @@
 <body>
 
 <div class="content-wrapper" align="center">
-    <div class="row" align="center">
-        <img src="{{ url_for('static', filename = 'images/banner.png') }} " width="375px" height="auto"/>
+    <div class="banner" align="center">
+        <img src="{{ url_for('static', filename = 'images/banner.png') }} "/>
     </div>
     <div id="white-player">
 
@@ -154,11 +153,11 @@
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="4">
-                    <img src="{{ url_for('static', filename = 'album-art/tatnuocdaudinh.jpg') }}"/>
+                    <img src="{{ url_for('static', filename = 'album-art/yougimmesomething.jpg') }}"/>
 
                     <div class="playlist-song-meta">
-                        <span class="playlist-song-name">Tát nước đầu đình</span>
-                        <span class="playlist-artist-album">Lynk Lee</span>
+                        <span class="playlist-song-name">You give me something</span>
+                        <span class="playlist-artist-album">James Morrison</span>
                     </div>
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
@@ -172,11 +171,11 @@
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="6">
-                    <img src="{{ url_for('static', filename = 'album-art/dragons.jpg') }}"/>
+                    <img src="{{ url_for('static', filename = 'album-art/driftedaway.jpg') }}"/>
 
                     <div class="playlist-song-meta">
-                        <span class="playlist-song-name">500 miles - Im gonna be</span>
-                        <span class="playlist-artist-album">Những chú rồng ảo tưởng</span>
+                        <span class="playlist-song-name">Drifted Away</span>
+                        <span class="playlist-artist-album">Luke Kenndy</span>
                     </div>
                 </div>
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
@@ -188,6 +187,7 @@
                         <span class="playlist-artist-album">Robbie Williams</span>
                     </div>
                 </div>
+
                 <div class="white-player-playlist-song amplitude-song-container amplitude-play-pause"
                      data-amplitude-song-index="8">
                     <img src="{{ url_for('static', filename = 'album-art/soyou.jpg') }}"/>
@@ -273,11 +273,11 @@
                 "cover_art_url": "{{ url_for('static', filename = 'album-art/perfect.jpg') }}"
             },
             {
-                "name": "Tát nước đầu đình",
-                "artist": "Lynk Lee",
+                "name": "You give me something",
+                "artist": "James Morrison",
                 "album": "",
-                "url": "{{ url_for('static', filename = 'music/Lynk Lee - tatnuocdaudinh.mp3') }}",
-                "cover_art_url": "{{ url_for('static', filename = 'album-art/tatnuocdaudinh.jpg') }}"
+                "url": "{{ url_for('static', filename = 'music/james morrison- you give me somthing.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/yougimmesomething.jpg') }}"
             },
             {
                 "name": "Everything",
@@ -287,11 +287,11 @@
                 "cover_art_url": "{{ url_for('static', filename = 'album-art/buble.jpg') }}"
             },
             {
-                "name": "500 miles - Im gonna be",
-                "artist": "Những chú rồng ảo tưởng",
+                "name": "Drifted Away",
+                "artist": "Luke Kenndy",
                 "album": "",
-                "url": "{{ url_for('static', filename = 'music/ImGunnaBe.mp3') }}",
-                "cover_art_url": "{{ url_for('static', filename = 'album-art/dragons.jpg') }}"
+                "url": "{{ url_for('static', filename = 'music/DRIFT AWAY-Luke Kennedy.mp3') }}",
+                "cover_art_url": "{{ url_for('static', filename = 'album-art/driftedaway.jpg') }}"
             },
             {
                 "name": "Angels",
